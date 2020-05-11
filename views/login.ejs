@@ -1,0 +1,23 @@
+<% include ./partials/header %>
+    <div class="row">
+        <h1 style="text-align: center">Login!</h1>
+        <div style="width: 30%; margin: 25px auto;">
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="username" placeholder="username">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" name="password" placeholder="password">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-lg btn-primary btn-block">Login!</button>
+                </div>
+            </form>
+            <span>New to Teeming Resorts? <a href="/register">Sign up now!</a></span>
+            <hr style="margin-top: 10px; margin-bottom: 10px;">
+            <a href="/resorts">Go Back</a>
+            <hr style="margin-top: 10px; margin-bottom: 10px;">
+        </div>
+    </div>
+<% include ./partials/footer %>
+
