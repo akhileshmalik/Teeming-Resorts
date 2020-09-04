@@ -24,7 +24,7 @@
     "locus": "^2.0.4",
     "method-override": "^2.3.10",
     "moment": "^2.25.3",
-    "mongodb": "^3.0.0",
+    "mongodb": "^3.1.13",
     "mongoose": "^5.7.5",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
